@@ -1,0 +1,14 @@
+:root { --bg: #03040d; --sky: #11143a; --ink: #e9ecf5; --dim: #9aa3bd; --teal: #4deed6; }
+* { box-sizing: border-box; }
+body { margin: 0; background: linear-gradient(#11143a, #03040d 60%); background-attachment: fixed; color: var(--ink);
+  font: 17px/1.6 "Avenir Next", -apple-system, system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+h1 { font-weight: 300; letter-spacing: 0.35em; font-size: 2.1rem; margin: 0 0 4px; }
+h2 { color: var(--teal); letter-spacing: 0.12em; font-size: 1rem; margin-top: 2.2em; text-transform: uppercase; }
+p, li { color: var(--dim); }
+a { color: var(--teal); }
+.tag { color: var(--dim); letter-spacing: 0.08em; margin-bottom: 28px; }
+nav a { margin-right: 18px; font-size: 0.9rem; letter-spacing: 0.1em; text-transform: uppercase; }
+.shots { display: flex; gap: 12px; overflow-x: auto; margin: 28px 0; }
+.shots img { height: 420px; border-radius: 18px; }
+footer { margin-top: 48px; font-size: 0.85rem; color: var(--dim); }
